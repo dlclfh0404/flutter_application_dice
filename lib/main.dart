@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Dice dice = Dice(size: 10);
+  Dice dice = Dice(size: 45);
   late Timer timer;
   dynamic resultNum = 0;
   String resultView = '';
